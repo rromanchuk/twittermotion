@@ -1,3 +1,5 @@
+class NSString; end
+
 module Twitter
   class ComposerError
     attr_accessor :invalid_tweet
