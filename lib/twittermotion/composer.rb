@@ -46,7 +46,7 @@ module Twitter
 
       urls.each do |url|
         _url = url
-        if _url.is_a? NSString
+        if _url.is_a? ::NSString
           _url = NSURL.URLWithString(url)
         end
         if !self.compose_controller.addURL(_url)
